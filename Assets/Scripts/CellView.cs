@@ -22,7 +22,7 @@ public class CellView : MonoBehaviour
   private void UpdateValue(int newValue)
   {
     
-    int displayed = (int)Mathf.Pow(newValue, 2);
+    int displayed = (int)Mathf.Pow(2, newValue);
 
     if (text != null)
       text.text = displayed.ToString();
