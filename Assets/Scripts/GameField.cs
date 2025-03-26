@@ -11,7 +11,7 @@ public class GameField : MonoBehaviour
   // Список созданных клеток
   public List<Cell> cells = new List<Cell>();
 
-  // Для хранения позиций, которые уже заняты клетками (можно расширить логику)
+  // Для хранения позиций, которые  уже заняты клетками (можно расширить логику)
   private HashSet<Vector2Int> _occupiedPositions = new HashSet<Vector2Int>();
 
   void Start()
