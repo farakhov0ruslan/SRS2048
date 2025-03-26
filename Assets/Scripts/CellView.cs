@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class CellView : MonoBehaviour
 {
-  public TMP_Text text; // UI Text (или TMP_Text)
+  public TMP_Text text; //  TMP_Text со значением клетки
   private Cell _cell;
 
   public void Init(Cell cell)
@@ -18,11 +18,10 @@ public class CellView : MonoBehaviour
     UpdateValue(cell.Value);
     UpdatePosition(cell.Position);
   }
-
+  
   private void UpdateValue(int newValue)
   {
-    // Например, в 2048 иногда выводят 2^value, но вы можете менять логику
-    // Если по заданию нужно Math.Pow(newValue, 2), используйте:
+    
     int displayed = (int)Mathf.Pow(newValue, 2);
 
     if (text != null)
@@ -31,12 +30,7 @@ public class CellView : MonoBehaviour
 
   private void UpdatePosition(Vector2Int newPos)
   {
-    // Если используете UI Canvas и хотите ставить клетку в CellPlace:
-    // Обычно достаточно родителя CellPlace, но если нужно, можно вручную сместить.
-    // transform.localPosition = Vector3.zero; // к примеру, если хотим по центру.
-
-    // Или, если в мире:
-    // transform.position = new Vector3(newPos.x, newPos.y, 0);
+    transform.localPosition = Vector3.zero; // Ставим локальные координатына 0.
   }
 
   private void OnDestroy()

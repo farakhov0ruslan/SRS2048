@@ -64,7 +64,8 @@ public class GameField : MonoBehaviour
     {
       var cellPlaceTransform = GetComponentInChildren<Grid>().CellsTransforms[pos];
       GameObject cellViewObject = Instantiate(cellViewPrefab, cellPlaceTransform);
-      cellViewObject.transform.localPosition = Vector3.zero;
+      
+      
       Debug.Log($"Создана клетка с коориданатыми {cellPlaceTransform.position.ToString()}");
       CellView cellView = cellViewObject.GetComponent<CellView>();
       if (cellView != null)
