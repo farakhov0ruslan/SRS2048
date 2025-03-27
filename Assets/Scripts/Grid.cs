@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -13,13 +14,17 @@ public class Grid : MonoBehaviour
   {
     Rows = GetComponentsInChildren<GridRow>();
     CellPlaces = GetComponentsInChildren<CellPlace>();
-    
+  }
+
+  private void Start()
+  {
     for (int y = 0; y < Rows.Length; y++)
     {
       for (int x = 0; x < Rows[y].CellPlaces.Length; x++)
       {
         Rows[y].CellPlaces[x].Position = new Vector2Int(x, y);
         CellsTransforms[new Vector2Int(x, y)] = Rows[y].CellPlaces[x].transform;
+        Debug.Log($"{new Vector2Int(x, y)}: {Rows[y].CellPlaces[x].transform.position}");
       }
     }
   }
