@@ -13,11 +13,7 @@ public class Grid : MonoBehaviour
   {
     Rows = GetComponentsInChildren<GridRow>();
     CellPlaces = GetComponentsInChildren<CellPlace>();
-  }
-
-
-  private void Start()
-  {
+    
     for (int y = 0; y < Rows.Length; y++)
     {
       for (int x = 0; x < Rows[y].CellPlaces.Length; x++)
