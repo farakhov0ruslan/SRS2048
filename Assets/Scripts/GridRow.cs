@@ -9,6 +9,6 @@ public class GridRow : MonoBehaviour
   private void Awake()
   {
     CellPlaces = GetComponentsInChildren<CellPlace>();
-    Debug.Log($"Получил компоненты CEllPlace {CellPlaces.Length}");
+    // Debug.Log($"Получил компоненты CEllPlace {CellPlaces.Length}");
   }
 }

@@ -10,6 +10,12 @@ public class Grid : MonoBehaviour
 
   public Dictionary<Vector2Int, Transform> CellsTransforms = new();
 
+  public int Size => CellPlaces.Length;
+
+  public int Height => Rows.Length;
+
+  public int Width => Size / Height;
+
   private void Awake()
   {
     Rows = GetComponentsInChildren<GridRow>();
@@ -24,7 +30,7 @@ public class Grid : MonoBehaviour
       {
         Rows[y].CellPlaces[x].Position = new Vector2Int(x, y);
         CellsTransforms[new Vector2Int(x, y)] = Rows[y].CellPlaces[x].transform;
-        Debug.Log($"{new Vector2Int(x, y)}: {Rows[y].CellPlaces[x].transform.position}");
+        // Debug.Log($"{new Vector2Int(x, y)}: {Rows[y].CellPlaces[x].transform.position}");
       }
     }
   }
