@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<coverage version="1.0" date="2025-03-28_20-48-26" tag="">
+  <assembly name="Assembly-CSharp">
+    <class name="Cell" coveredlines="7" coverablelines="21" totallines="46" coveredbranches="0" totalbranches="0" />
+    <class name="CellPlace" coveredlines="0" coverablelines="1" totallines="6" coveredbranches="0" totalbranches="0" />
+    <class name="CellView" coveredlines="34" coverablelines="41" totallines="71" coveredbranches="0" totalbranches="0" />
+    <class name="EndGamePanelController" coveredlines="4" coverablelines="10" totallines="36" coveredbranches="0" totalbranches="0" />
+    <class name="GameField" coveredlines="7" coverablelines="250" totallines="360" coveredbranches="0" totalbranches="0" />
+    <class name="GameFieldTests" coveredlines="0" coverablelines="54" totallines="90" coveredbranches="0" totalbranches="0" />
+    <class name="GameStateController" coveredlines="25" coverablelines="63" totallines="93" coveredbranches="0" totalbranches="0" />
+    <class name="GameStateControllerTests" coveredlines="0" coverablelines="43" totallines="142" coveredbranches="0" totalbranches="0" />
+    <class name="Grid" coveredlines="13" coverablelines="20" totallines="37" coveredbranches="0" totalbranches="0" />
+    <class name="GridRow" coveredlines="4" coverablelines="4" totallines="14" coveredbranches="0" totalbranches="0" />
+    <class name="GridRowTests" coveredlines="0" coverablelines="12" totallines="33" coveredbranches="0" totalbranches="0" />
+    <class name="GridTests" coveredlines="0" coverablelines="14" totallines="49" coveredbranches="0" totalbranches="0" />
+    <class name="InputController" coveredlines="4" coverablelines="72" totallines="108" coveredbranches="0" totalbranches="0" />
+    <class name="InputControllerTests" coveredlines="0" coverablelines="18" totallines="50" coveredbranches="0" totalbranches="0" />
+    <class name="ScoreController" coveredlines="1" coverablelines="8" totallines="22" coveredbranches="0" totalbranches="0" />
+    <class name="ScoreControllerTests" coveredlines="0" coverablelines="16" totallines="46" coveredbranches="0" totalbranches="0" />
+    <class name="Tests.CellPlaceTests" coveredlines="0" coverablelines="8" totallines="21" coveredbranches="0" totalbranches="0" />
+    <class name="Tests.CellTests" coveredlines="0" coverablelines="31" totallines="50" coveredbranches="0" totalbranches="0" />
+    <class name="Tests.CellViewTests" coveredlines="0" coverablelines="29" totallines="70" coveredbranches="0" totalbranches="0" />
+    <class name="Tests.EndGamePanelControllerTests" coveredlines="26" coverablelines="38" totallines="63" coveredbranches="0" totalbranches="0" />
+    <class name="Tests.GameStateControllerTests" coveredlines="70" coverablelines="70" totallines="142" coveredbranches="0" totalbranches="0" />
+    <class name="Tests.GridRowTests" coveredlines="13" coverablelines="13" totallines="33" coveredbranches="0" totalbranches="0" />
+    <class name="Tests.GridTests" coveredlines="15" coverablelines="23" totallines="49" coveredbranches="0" totalbranches="0" />
+    <class name="Tests.InputControllerTests" coveredlines="0" coverablelines="20" totallines="50" coveredbranches="0" totalbranches="0" />
+    <class name="Tests.ScoreControllerTests" coveredlines="0" coverablelines="17" totallines="46" coveredbranches="0" totalbranches="0" />
+  </assembly>
+</coverage>

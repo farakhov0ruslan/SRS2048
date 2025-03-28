@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageSession xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="0.0.0.0">
+  <Summary numSequencePoints="27" visitedSequencePoints="27" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100.0" branchCoverage="0.0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="7" numClasses="7" visitedMethods="11" numMethods="11" />
+  <Modules>
+    <Module>
+      <Summary numSequencePoints="27" visitedSequencePoints="27" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100.0" branchCoverage="0.0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="7" numClasses="7" visitedMethods="11" numMethods="11" />
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>Assembly-CSharp</ModuleName>
+      <Files>
+        <File uid="1" fullPath="/Users/ruslanfarahov/UnityProj/SRS2048/Assets/Scripts/Cell.cs" />
+        <File uid="2" fullPath="/Users/ruslanfarahov/UnityProj/SRS2048/Assets/Scripts/CellPlace.cs" />
+        <File uid="3" fullPath="/Users/ruslanfarahov/UnityProj/SRS2048/Assets/Scripts/CellView.cs" />
+        <File uid="4" fullPath="/Users/ruslanfarahov/UnityProj/SRS2048/Assets/Scripts/EndGamePanelController.cs" />
+        <File uid="5" fullPath="/Users/ruslanfarahov/UnityProj/SRS2048/Assets/Scripts/GameField.cs" />
+        <File uid="6" fullPath="/Users/ruslanfarahov/UnityProj/SRS2048/Assets/Scripts/GameStateController.cs" />
+        <File uid="7" fullPath="/Users/ruslanfarahov/UnityProj/SRS2048/Assets/Scripts/Grid.cs" />
+        <File uid="8" fullPath="/Users/ruslanfarahov/UnityProj/SRS2048/Assets/Scripts/GridRow.cs" />
+        <File uid="9" fullPath="/Users/ruslanfarahov/UnityProj/SRS2048/Assets/Scripts/InputController.cs" />
+        <File uid="10" fullPath="/Users/ruslanfarahov/UnityProj/SRS2048/Assets/Scripts/ScoreController.cs" />
+        <File uid="11" fullPath="/Users/ruslanfarahov/UnityProj/SRS2048/Assets/Tests/GameFieldTests.cs" />
+        <File uid="12" fullPath="/Users/ruslanfarahov/UnityProj/SRS2048/Assets/Tests/GameStateControllerTests.cs" />
+        <File uid="13" fullPath="/Users/ruslanfarahov/UnityProj/SRS2048/Assets/Tests/GridTests.cs" />
+        <File uid="14" fullPath="/Users/ruslanfarahov/UnityProj/SRS2048/Assets/Tests/InputControllerTests.cs" />
+        <File uid="15" fullPath="/Users/ruslanfarahov/UnityProj/SRS2048/Assets/Tests/ScoreControllerTests.cs" />
+        <File uid="16" fullPath="/Users/ruslanfarahov/UnityProj/SRS2048/Assets/Tests/CellPlaceTests.cs" />
+        <File uid="17" fullPath="/Users/ruslanfarahov/UnityProj/SRS2048/Assets/Tests/CellTests.cs" />
+        <File uid="18" fullPath="/Users/ruslanfarahov/UnityProj/SRS2048/Assets/Tests/CellViewTests.cs" />
+        <File uid="19" fullPath="/Users/ruslanfarahov/UnityProj/SRS2048/Assets/Tests/EndGamePanelControllerTests.cs" />
+        <File uid="20" fullPath="/Users/ruslanfarahov/UnityProj/SRS2048/Assets/Tests/GridRowTests.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100.0" branchCoverage="0.0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>CellView</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="100.0" branchCoverage="0" crapScore="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100.0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663313</MetadataToken>
+              <Name>CellView::CellView()</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="62" ordinal="0" offset="0" sl="8" sc="20" el="8" ec="20" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="63" ordinal="0" offset="11" sl="9" sc="20" el="9" ec="20" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="64" ordinal="0" offset="22" sl="10" sc="20" el="10" ec="20" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100.0" branchCoverage="0.0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>GameField</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="100.0" branchCoverage="0" crapScore="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100.0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663326</MetadataToken>
+              <Name>GameField::GameField()</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="351" ordinal="0" offset="0" sl="8" sc="3" el="8" ec="3" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="1" uspid="352" ordinal="0" offset="13" sl="14" sc="3" el="14" ec="3" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="1" uspid="353" ordinal="0" offset="24" sl="20" sc="3" el="20" ec="3" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100.0" branchCoverage="0.0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>GameStateController</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="100.0" branchCoverage="0" crapScore="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100.0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663330</MetadataToken>
+              <Name>GameStateController::GameStateController()</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="429" ordinal="0" offset="0" sl="10" sc="5" el="10" ec="5" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100.0" branchCoverage="0.0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>Grid</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="100.0" branchCoverage="0" crapScore="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100.0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663340</MetadataToken>
+              <Name>Grid::Grid()</Name>
+              <FileRef uid="7" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="455" ordinal="0" offset="0" sl="11" sc="3" el="11" ec="3" bec="0" bev="0" fileid="7" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100.0" branchCoverage="0.0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="1" numClasses="1" visitedMethods="3" numMethods="3" />
+          <FullName>GridRow</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="100.0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100.0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663341</MetadataToken>
+              <Name>CellPlace[] GridRow::get_CellPlaces()</Name>
+              <FileRef uid="8" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="456" ordinal="0" offset="0" sl="6" sc="35" el="6" ec="35" bec="0" bev="0" fileid="8" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="100.0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100.0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663342</MetadataToken>
+              <Name>System.Void GridRow::set_CellPlaces(CellPlace[])</Name>
+              <FileRef uid="8" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="457" ordinal="0" offset="0" sl="6" sc="40" el="6" ec="40" bec="0" bev="0" fileid="8" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="100.0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100.0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663343</MetadataToken>
+              <Name>System.Void GridRow::Awake()</Name>
+              <FileRef uid="8" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="458" ordinal="0" offset="0" sl="10" sc="3" el="10" ec="3" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="2" uspid="459" ordinal="0" offset="1" sl="11" sc="5" el="11" ec="5" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="2" uspid="460" ordinal="0" offset="14" sl="13" sc="3" el="13" ec="3" bec="0" bev="0" fileid="8" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100.0" branchCoverage="0.0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>ScoreController</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="100.0" branchCoverage="0" crapScore="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100.0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663354</MetadataToken>
+              <Name>ScoreController::ScoreController()</Name>
+              <FileRef uid="10" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="540" ordinal="0" offset="0" sl="8" sc="3" el="8" ec="3" bec="0" bev="0" fileid="10" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="13" visitedSequencePoints="13" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100.0" branchCoverage="0.0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="1" numClasses="1" visitedMethods="3" numMethods="3" />
+          <FullName>Tests.GridRowTests</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="100.0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100.0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663394</MetadataToken>
+              <Name>System.Void Tests.GridRowTests::SetUp()</Name>
+              <FileRef uid="20" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="790" ordinal="0" offset="0" sl="14" sc="25" el="14" ec="25" bec="0" bev="0" fileid="20" />
+                <SequencePoint vc="1" uspid="791" ordinal="0" offset="1" sl="15" sc="7" el="15" ec="7" bec="0" bev="0" fileid="20" />
+                <SequencePoint vc="1" uspid="792" ordinal="0" offset="36" sl="16" sc="7" el="16" ec="7" bec="0" bev="0" fileid="20" />
+                <SequencePoint vc="1" uspid="793" ordinal="0" offset="53" sl="17" sc="7" el="17" ec="7" bec="0" bev="0" fileid="20" />
+                <SequencePoint vc="1" uspid="794" ordinal="0" offset="83" sl="18" sc="7" el="18" ec="7" bec="0" bev="0" fileid="20" />
+                <SequencePoint vc="1" uspid="795" ordinal="0" offset="106" sl="19" sc="5" el="19" ec="5" bec="0" bev="0" fileid="20" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="100.0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100.0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663395</MetadataToken>
+              <Name>System.Void Tests.GridRowTests::TearDown()</Name>
+              <FileRef uid="20" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="796" ordinal="0" offset="0" sl="22" sc="28" el="22" ec="28" bec="0" bev="0" fileid="20" />
+                <SequencePoint vc="1" uspid="797" ordinal="0" offset="1" sl="23" sc="7" el="23" ec="7" bec="0" bev="0" fileid="20" />
+                <SequencePoint vc="1" uspid="798" ordinal="0" offset="13" sl="24" sc="5" el="24" ec="5" bec="0" bev="0" fileid="20" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="100.0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100.0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663396</MetadataToken>
+              <Name>System.Void Tests.GridRowTests::Awake_ShouldPopulateCellPlaces()</Name>
+              <FileRef uid="20" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="799" ordinal="0" offset="0" sl="28" sc="5" el="28" ec="5" bec="0" bev="0" fileid="20" />
+                <SequencePoint vc="1" uspid="800" ordinal="0" offset="1" sl="29" sc="7" el="29" ec="7" bec="0" bev="0" fileid="20" />
+                <SequencePoint vc="1" uspid="801" ordinal="0" offset="13" sl="30" sc="7" el="30" ec="7" bec="0" bev="0" fileid="20" />
+                <SequencePoint vc="1" uspid="802" ordinal="0" offset="45" sl="31" sc="5" el="31" ec="5" bec="0" bev="0" fileid="20" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+  </Modules>
+</CoverageSession>

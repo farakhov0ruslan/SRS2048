@@ -2,11 +2,10 @@ using UnityEngine;
 
 public class GameStateController : MonoBehaviour
 {
-    [SerializeField] private GameField gameField;              // Ссылка на объект GameField
-    [SerializeField] private EndGamePanelController endGamePanel; // Ссылка на EndGamePanelController
-    [SerializeField] private InputController inputController; // Ссылка на EndGamePanelController
+    [SerializeField] private GameField gameField;              
+    [SerializeField] private EndGamePanelController endGamePanel;
+    [SerializeField] private InputController inputController;
 
-    // Порог победы, например 2048
     public int winThreshold = 2048;
 
     private void Start()
@@ -15,9 +14,6 @@ public class GameStateController : MonoBehaviour
             endGamePanel.gameObject.SetActive(false);
     }
 
-    /// <summary>
-    /// Проверяет состояние игры: победа или отсутствие доступных ходов.
-    /// </summary>
     public void CheckGameState()
     {
         bool win = false;
@@ -25,10 +21,10 @@ public class GameStateController : MonoBehaviour
         {
             for (int y = 0; y < gameField.fieldSize.y; y++)
             {
-                var cellView = gameField.Field[x, y];
-                if (cellView != null)
+                var cv = gameField.Field[x, y];
+                if (cv != null)
                 {
-                    int tileValue = (int)Mathf.Pow(2, cellView.Cell.Value);
+                    int tileValue = (int)Mathf.Pow(2, cv.Cell.Value);
                     if (tileValue >= winThreshold)
                     {
                         win = true;
@@ -41,26 +37,25 @@ public class GameStateController : MonoBehaviour
 
         if (win)
         {
-            endGamePanel.ShowEndGame("You Win!");
-            gameField.enabled = false;
-            inputController.enabled = false;
+            if (endGamePanel)
+                endGamePanel.ShowEndGame("You Win!");
+            if (gameField) gameField.enabled = false;
+            if (inputController) inputController.enabled = false;
             return;
         }
 
         if (NoMovesAvailable())
         {
-            endGamePanel.ShowEndGame("Game Over");
-            gameField.enabled = false;
-            inputController.enabled = false;
+            if (endGamePanel)
+                endGamePanel.ShowEndGame("Game Over");
+            if (gameField) gameField.enabled = false;
+            if (inputController) inputController.enabled = false;
         }
     }
 
-    /// <summary>
-    /// Возвращает true, если нет свободных ячеек и ни у какой плитки нет возможного объединения с соседней.
-    /// </summary>
     private bool NoMovesAvailable()
     {
-        // Если есть пустая клетка, ходы возможны
+        // Если есть пустая клетка => false
         for (int x = 0; x < gameField.fieldSize.x; x++)
         {
             for (int y = 0; y < gameField.fieldSize.y; y++)
@@ -76,13 +71,15 @@ public class GameStateController : MonoBehaviour
             {
                 if (x < gameField.fieldSize.x - 1)
                 {
-                    if (gameField.Field[x, y] != null && gameField.Field[x + 1, y] != null &&
+                    if (gameField.Field[x, y] != null &&
+                        gameField.Field[x + 1, y] != null &&
                         gameField.Field[x, y].Cell.Value == gameField.Field[x + 1, y].Cell.Value)
                         return false;
                 }
                 if (y < gameField.fieldSize.y - 1)
                 {
-                    if (gameField.Field[x, y] != null && gameField.Field[x, y + 1] != null &&
+                    if (gameField.Field[x, y] != null &&
+                        gameField.Field[x, y + 1] != null &&
                         gameField.Field[x, y].Cell.Value == gameField.Field[x, y + 1].Cell.Value)
                         return false;
                 }

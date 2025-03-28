@@ -1,0 +1,50 @@
+{
+  "summary": {
+    "generatedon": "2025-03-28T19:42:06Z",
+    "parser": "MultiReportParser (6x OpenCoverParser)",
+    "assemblies": 1,
+    "classes": 27,
+    "files": 20,
+    "coveredlines": 815,
+    "uncoveredlines": 421,
+    "coverablelines": 1236,
+    "totallines": 1647,
+    "linecoverage": 65.9,
+    "coveredbranches": 0,
+    "totalbranches": 0,
+    "coveredmethods": 110,
+    "totalmethods": 146,
+    "methodcoverage": 75.3
+ },
+  "coverage": {
+    "assemblies": [
+      { "name": "Assembly-CSharp", "classes": 27, "coverage": 65.9, "coveredlines": 815, "coverablelines": 1236, "totallines": 2477, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 75.3, "coveredmethods": 110, "totalmethods": 146, "classesinassembly": [
+        { "name": "Cell", "coverage": 100, "coveredlines": 21, "coverablelines": 21, "totallines": 46, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 5, "totalmethods": 5 },
+        { "name": "CellPlace", "coverage": 100, "coveredlines": 1, "coverablelines": 1, "totallines": 6, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 2, "totalmethods": 2 },
+        { "name": "CellView", "coverage": 92.6, "coveredlines": 38, "coverablelines": 41, "totallines": 71, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 5, "totalmethods": 5 },
+        { "name": "EndGamePanelController", "coverage": 40, "coveredlines": 4, "coverablelines": 10, "totallines": 36, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 33.3, "coveredmethods": 1, "totalmethods": 3 },
+        { "name": "GameField", "coverage": 60.5, "coveredlines": 190, "coverablelines": 314, "totallines": 279, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 90.4, "coveredmethods": 19, "totalmethods": 21 },
+        { "name": "GameFieldTests", "coverage": 0, "coveredlines": 0, "coverablelines": 54, "totallines": 289, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 0, "coveredmethods": 0, "totalmethods": 5 },
+        { "name": "GameStateController", "coverage": 46.9, "coveredlines": 38, "coverablelines": 81, "totallines": 90, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 75, "coveredmethods": 6, "totalmethods": 8 },
+        { "name": "GameStateControllerTests", "coverage": 0, "coveredlines": 0, "coverablelines": 43, "totallines": 213, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 0, "coveredmethods": 0, "totalmethods": 4 },
+        { "name": "Grid", "coverage": 85, "coveredlines": 17, "coverablelines": 20, "totallines": 37, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 70, "coveredmethods": 7, "totalmethods": 10 },
+        { "name": "GridRow", "coverage": 100, "coveredlines": 4, "coverablelines": 4, "totallines": 14, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 3, "totalmethods": 3 },
+        { "name": "GridRowTests", "coverage": 0, "coveredlines": 0, "coverablelines": 12, "totallines": 33, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 0, "coveredmethods": 0, "totalmethods": 3 },
+        { "name": "GridTests", "coverage": 0, "coveredlines": 0, "coverablelines": 14, "totallines": 49, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 0, "coveredmethods": 0, "totalmethods": 3 },
+        { "name": "InputController", "coverage": 33.7, "coveredlines": 30, "coverablelines": 89, "totallines": 112, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 12, "totalmethods": 12 },
+        { "name": "InputControllerTests", "coverage": 0, "coveredlines": 0, "coverablelines": 18, "totallines": 100, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 0, "coveredmethods": 0, "totalmethods": 3 },
+        { "name": "ScoreController", "coverage": 62.5, "coveredlines": 5, "coverablelines": 8, "totallines": 22, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 66.6, "coveredmethods": 2, "totalmethods": 3 },
+        { "name": "ScoreControllerTests", "coverage": 0, "coveredlines": 0, "coverablelines": 16, "totallines": 46, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 0, "coveredmethods": 0, "totalmethods": 3 },
+        { "name": "Tests.CellPlaceTests", "coverage": 100, "coveredlines": 8, "coverablelines": 8, "totallines": 21, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 1, "totalmethods": 1 },
+        { "name": "Tests.CellTests", "coverage": 100, "coveredlines": 31, "coverablelines": 31, "totallines": 50, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 3, "totalmethods": 3 },
+        { "name": "Tests.CellViewTests", "coverage": 100, "coveredlines": 29, "coverablelines": 29, "totallines": 70, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 3, "totalmethods": 3 },
+        { "name": "Tests.EndGamePanelControllerTests", "coverage": 68.4, "coveredlines": 26, "coverablelines": 38, "totallines": 63, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 6, "totalmethods": 6 },
+        { "name": "Tests.FakeGameField", "coverage": 0, "coveredlines": 0, "coverablelines": 6, "totallines": 100, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 0, "coveredmethods": 0, "totalmethods": 5 },
+        { "name": "Tests.GameFieldTests", "coverage": 97.2, "coveredlines": 179, "coverablelines": 184, "totallines": 289, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 11, "totalmethods": 11 },
+        { "name": "Tests.GameStateControllerTests", "coverage": 100, "coveredlines": 110, "coverablelines": 110, "totallines": 213, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 8, "totalmethods": 8 },
+        { "name": "Tests.GridRowTests", "coverage": 100, "coveredlines": 13, "coverablelines": 13, "totallines": 33, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 3, "totalmethods": 3 },
+        { "name": "Tests.GridTests", "coverage": 100, "coveredlines": 23, "coverablelines": 23, "totallines": 49, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 5, "totalmethods": 5 },
+        { "name": "Tests.InputControllerTests", "coverage": 100, "coveredlines": 31, "coverablelines": 31, "totallines": 100, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 5, "totalmethods": 5 },
+        { "name": "Tests.ScoreControllerTests", "coverage": 100, "coveredlines": 17, "coverablelines": 17, "totallines": 46, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 3, "totalmethods": 3 } ] } ]
+  }
+}

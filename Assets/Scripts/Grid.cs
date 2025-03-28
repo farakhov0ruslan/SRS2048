@@ -16,13 +16,13 @@ public class Grid : MonoBehaviour
 
   public int Width => Size / Height;
 
-  private void Awake()
+  public void Awake()
   {
     Rows = GetComponentsInChildren<GridRow>();
     CellPlaces = GetComponentsInChildren<CellPlace>();
   }
 
-  private void Start()
+  public void Start()
   {
     for (int y = 0; y < Rows.Length; y++)
     {
